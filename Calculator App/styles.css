@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, rgba(32,91,122,1), rgba(162,187,207,1));
+    
+}
+
+.container-app{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    /* border: 1px solid; */
+    box-shadow: 0 0 30px #4b4141;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+}
+
+/* Display sreen styling */
+.display-screen{
+    /* border: 1px solid red; */
+    height: 80px;
+    border-radius: 8px;
+}
+
+.screen{
+    /* border:1px solid #ddd; */
+    height: 70px;
+    margin: 0 10px 0 0;
+    font-size: 22px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+button{
+    background-color: #ddd;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: ease .4s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+button#equal{
+    position: absolute;
+    top: 350px;
+    height: 140px;
+    border-radius: 30px;
+    margin: 0 0 0 5px;
+}
+
+button.btn-operator{
+    font-size: 18px;
+    color: #f967f3;
+    background: #ffd0fd;
+}
+
+button.btn-number{
+    background-color: #c3eaff;
+    color: #000;
+}
+
+button.btn-equal{
+    background-color: #adf9e7;
+    font-size: 18px;
+}
+
+button#backspace{
+    font-size: 15px;
+}
