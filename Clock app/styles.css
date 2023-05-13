@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.clock{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #242424;
+    /* background-color: blue; */
+    border-radius: 50%;
+    position: relative;
+}
+
+.number1{
+    position: absolute;
+    left: 230px;
+    top: 30px;
+}
+
+.number2 {
+    position: absolute;
+    left: 275px;
+    top: 95px;
+}
+
+.number3{
+    position: absolute;
+    left: 285px;
+    top: 150px;
+}
+
+.number4{
+    position: absolute;
+    left: 265px;
+    top: 210px;
+}
+
+.number5{
+    position: absolute;
+    left: 220px;
+    top: 260px;
+}
+
+.number6{
+    position: absolute;
+    left: 150px;
+    top: 280px;
+}
+
+.number7{
+    position: absolute;
+    left: 70px;
+    top: 260px;
+}
+.number8{
+    position: absolute;
+    left: 20px;
+    top: 210px;
+}
+.number9{
+    position: absolute;
+    left: 5px;
+    top: 145px;
+}
+.number10{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+.number11{
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+.number12{
+    position: absolute;
+    top: 5px;
+    left: 140px;
+}
+
+.hand{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 6px;
+    width: 10px;
+    height: 44%;
+    /* background-color: #ddd; */
+}
+
+.clock .hour{
+    width: 7px;
+    background: #000;
+    height: 40%;
+}
+.clock .minute{
+    width: 5px;
+    background: #889089;
+    height: 124px;
+}
+.clock .second{
+    width: 3px;
+    background: #ff0000;
+}
